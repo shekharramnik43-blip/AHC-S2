@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APEX HORIZON Season 2 Standings</title>
+    <meta
+      name="description"
+      content="APEX HORIZON Season 2 driver and team standings."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="APEX HORIZON home">
+        <img
+          class="brand-logo"
+          src="assets/apex-horizon-logo.png"
+          alt="APEX HORIZON logo"
+        />
+        <span>APEX HORIZON</span>
+      </a>
+
+      <nav class="tabs" aria-label="Standings navigation">
+        <button class="tab is-active" type="button" data-target="drivers">
+          Drivers
+        </button>
+        <button class="tab" type="button" data-target="teams">Teams</button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Season 2 leaderboard</p>
+          <h1>APEX HORIZON Drivers' Standings</h1>
+        </div>
+        <div class="summary-grid" aria-label="Season summary">
+          <article>
+            <span>Season</span>
+            <strong>2</strong>
+            <small>current standings</small>
+          </article>
+          <article>
+            <span>Leader</span>
+            <strong>URUSZ</strong>
+            <small>25 pts</small>
+          </article>
+          <article>
+            <span>Top Team</span>
+            <strong>Ferrari</strong>
+            <small>43 pts</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel standings-panel" id="drivers" data-panel>
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Current table</p>
+            <h2>Driver Standings</h2>
+          </div>
+          <span class="pill">No driver photos</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Pos.</th>
+                <th>Driver</th>
+                <th>Present Team</th>
+                <th class="points">Pts.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><span class="driver-name">URUSZ</span></td>
+                <td><span class="team ferrari"></span>Ferrari</td>
+                <td class="points">25</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><span class="driver-name">VINI</span></td>
+                <td><span class="team ferrari"></span>Ferrari</td>
+                <td class="points">18</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><span class="driver-name">JustK4RT</span></td>
+                <td><span class="team williams"></span>Williams</td>
+                <td class="points">15</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td><span class="driver-name">Unassigned Driver</span></td>
+                <td><span class="team empty"></span>-</td>
+                <td class="points">12</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td><span class="driver-name">SOSO</span></td>
+                <td><span class="team mclaren"></span>McLaren</td>
+                <td class="points">10</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td><span class="driver-name">Dudegameo</span></td>
+                <td><span class="team alpine"></span>Alpine</td>
+                <td class="points">8</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td><span class="driver-name">Danil_kyvat</span></td>
+                <td><span class="team cadillac"></span>Cadillac</td>
+                <td class="points">6</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td><span class="driver-name">DEDE</span></td>
+                <td><span class="team empty"></span>-</td>
+                <td class="points">4</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td><span class="driver-name">Capybara</span></td>
+                <td><span class="team mercedes"></span>Mercedes</td>
+                <td class="points">2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel standings-panel is-hidden" id="teams" data-panel>
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Constructor table</p>
+            <h2>Team Standings</h2>
+          </div>
+          <span class="pill">11 teams</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Pos.</th>
+                <th>Team</th>
+                <th class="points">Pts.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><span class="team ferrari"></span>Ferrari</td>
+                <td class="points">43</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><span class="team williams"></span>Williams</td>
+                <td class="points">15</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><span class="team redbull"></span>RedBull</td>
+                <td class="points">12</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td><span class="team mclaren"></span>McLaren</td>
+                <td class="points">10</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td><span class="team alpine"></span>Alpine</td>
+                <td class="points">8</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td><span class="team cadillac"></span>Cadillac</td>
+                <td class="points">6</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td><span class="team aston"></span>Aston Martin</td>
+                <td class="points">0</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td><span class="team vcarb"></span>VCARB</td>
+                <td class="points">0</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td><span class="team mercedes"></span>Mercedes</td>
+                <td class="points">0</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td><span class="team haas"></span>Haas</td>
+                <td class="points">0</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td><span class="team audi"></span>Audi</td>
+                <td class="points">0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>APEX HORIZON Season 2</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
