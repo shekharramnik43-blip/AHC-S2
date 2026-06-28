@@ -284,7 +284,7 @@ td:first-child {
 }
 
 .cadillac {
-  background: #c7a45d;
+  background: #8f959e;
 }
 
 .aston {
@@ -300,11 +300,23 @@ td:first-child {
 }
 
 .haas {
-  background: #b6babd;
+  background: #ef4b4f;
 }
 
 .audi {
   background: #d71920;
+}
+
+.bmw {
+  background: #1c69d4;
+}
+
+.peugeot {
+  background: #8fe6a2;
+}
+
+.alten {
+  background: #ff9a9d;
 }
 
 .empty {
