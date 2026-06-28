@@ -7,7 +7,7 @@ A clean static racing standings website for APEX HORIZON Season 2, with driver s
 - `index.html` - page content and standings data
 - `styles.css` - dark racing-style layout
 - `script.js` - switches between driver and team tables
-- `assets/apex-horizon-logo.png` - league logo
+- `assets/apex-horizon-logo-web.png` - league logo used on the website
 
 ## Preview
 
