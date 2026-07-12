@@ -250,7 +250,7 @@ td:first-child {
   width: 8px;
   height: 28px;
   border-radius: 999px;
-  background: var(--red);
+  background: currentColor;
 }
 
 .team {
@@ -263,59 +263,73 @@ td:first-child {
   background: #808999;
 }
 
-.ferrari {
-  background: #e10600;
+.team.ferrari,
+.driver-name.ferrari::before {
+  background: #ff6b6f;
 }
 
-.williams {
-  background: #63c7ff;
+.team.williams,
+.driver-name.williams::before {
+  background: #5fb7ff;
 }
 
-.redbull {
-  background: #3671c6;
+.team.redbull,
+.driver-name.redbull::before {
+  background: #1d4ed8;
 }
 
-.mclaren {
-  background: #ff8000;
+.team.mclaren,
+.driver-name.mclaren::before {
+  background: #ff8700;
 }
 
-.alpine {
-  background: #ff87bc;
+.team.alpine,
+.driver-name.alpine::before {
+  background: linear-gradient(135deg, #2f7bff 0%, #ff78bd 100%);
 }
 
-.cadillac {
-  background: #8f959e;
+.team.cadillac,
+.driver-name.cadillac::before {
+  background: linear-gradient(135deg, #0b0d12 0%, #ffffff 100%);
 }
 
-.aston {
-  background: #229971;
+.team.aston,
+.driver-name.aston::before {
+  background: #007a4d;
 }
 
-.vcarb {
-  background: #6692ff;
+.team.vcarb,
+.driver-name.vcarb::before {
+  background: linear-gradient(135deg, #ffffff 0%, #f6d74a 45%, #2563eb 100%);
 }
 
-.mercedes {
+.team.mercedes,
+.driver-name.mercedes::before {
   background: #27f4d2;
 }
 
-.haas {
-  background: #ef4b4f;
+.team.haas,
+.driver-name.haas::before {
+  background: linear-gradient(135deg, #ffffff 0%, #111111 50%, #e2363c 100%);
 }
 
-.audi {
-  background: #d71920;
+.team.audi,
+.driver-name.audi::before {
+  background: linear-gradient(135deg, #c0c6cc 0%, #050505 48%, #ff2d1f 100%);
 }
 
-.bmw {
-  background: #1c69d4;
+.team.bmw,
+.driver-name.bmw::before {
+  background: #8fd3ff;
 }
 
-.peugeot {
+.team.peugeot,
+.driver-name.peugeot::before {
   background: #8fe6a2;
 }
 
-.alten {
+.team.alten,
+.driver-name.alten::before {
   background: #ff9a9d;
 }
 
